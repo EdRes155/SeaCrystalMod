@@ -1,0 +1,14 @@
+{
+	"type": "Conveyor",
+	"name": "Sea Crystal Conveyor",
+	"health": 10,
+	"description": "Conveyor of Sea Crystal. Speed is insane.",
+	"requirements": [
+		 { "item": "sea-crystal", "amount": 5 },
+		 { "item": "copper", "amount": 5 },
+		 { "item": "lead", "amount": 5}
+	],
+	"category": "distribution",
+	"speed": 10,
+	"research": "graphite-press"
+}

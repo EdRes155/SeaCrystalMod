@@ -1,0 +1,13 @@
+{
+	"name": "Sea Crystal Wall Large",
+	"description": "A very durable defensive and reflective block.",
+	"type": "DeflectorWall",
+	"health": 4000,
+	"maxDamageReflect": 45,
+	"size": 2,
+	"requirements": [
+		{ "item": "sea-crystal", "amount": 25 }
+	],
+	"category": "defense",
+	"research": "sea-crystal-wall"
+}

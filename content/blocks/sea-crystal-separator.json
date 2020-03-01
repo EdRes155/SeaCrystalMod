@@ -1,0 +1,40 @@
+{
+  "type": "Separator",
+  "name": "Crystal Separator",
+  "description": "Use Sea Crystal to get thorium, titanium, copper and plastanium.",
+  "results": [
+    { "item": "titanium", "amount": 3 },
+    { "item": "thorium", "amount": 2 },
+    { "item": "copper", "amount": 4 },
+    { "item": "plastanium", "amount": 1 }
+  ],
+  "size": 3,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "itemCapacity": 8,
+  "craftTime": 5,
+  "updateEffect": "oily",
+  "consumes": {
+		"power": 1.0,
+		"items": {
+			"items": [
+				{ "item": "sea-crystal", "amount": 4 }
+			]
+		},
+		"liquid": {
+			"liquid": "water",
+			"amount": 1.0
+		}
+	},
+  "requirements": [
+    { "item": "sea-crystal", "amount": 250 },
+    { "item": "lead", "amount": 500 },
+    { "item": "copper", "amount": 600 },
+    { "item": "graphite", "amount": 250 },
+  ],
+  "category": "crafting",
+  "research": "separator",
+  "idleSound": "respawning",
+  "idleSoundVolume": 0.5,
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Depths of the ocean",
+  "description": "Stay alert, because you are inthe deespet, part of the ocean. YOU MAY NOT SURVIVE MUCH.",
+  "loadout": "basicNucleus",
+  "startingItems": [
+    {"item": "copper", "amount": 500}
+    {"item": "lead", "amount": 400}
+    {"item": "titanium", "amount": 300}
+    {"item": "graphite", "amount": 300}
+  ],
+  "conditionWave": 15,
+  "launchPeriod": 2,
+  "requirements": [
+    {
+      "type": "ZoneWave",
+      "zone": "craters",
+      "wave": 30,
+    },
+    {
+      "type": "Unlock",
+      "block": "laser-drill",
+    },
+    {
+      "type": "Unlock",
+      "block": "spore-press",
+    }
+  ],
+  "resources": ["copper", "lead", "coal", "titanium", "sand", "thorium", "sea-crystal"]
+}

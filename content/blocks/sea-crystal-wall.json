@@ -1,0 +1,13 @@
+{
+	"name": "Sea Crystal Wall",
+	"description": "A very durable defensive and reflective block.",
+	"type": "DeflectorWall",
+	"health": 900,
+	"maxDamageReflect": 45,
+	"size": 1,
+	"requirements": [
+		{ "item": "sea-crystal", "amount": 6 }
+	],
+	"category": "defense",
+	"research": "thorium-wall-large"
+}

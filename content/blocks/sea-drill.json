@@ -1,0 +1,19 @@
+{
+  "name": "Sea  Drill",
+  "description": "A drill made of sea crystal, is fast but takes up a small amount of energy",
+  "type": "Drill",
+  "size": 2,
+  "tier": 5,
+  "itemCapacity": 10,
+  "drillTime": 6,
+  "requirements": [
+    {"item": "copper", "amount": 100},
+    {"item": "graphite", "amount": 50},
+    {"item": "lead", "amount": 100},
+    {"item": "sea-crystal", "amount": 50}
+  ],
+  "category": "production",
+  "research": "pneumatic-drill",
+  "idleSound": "drill",
+  "idleSoundVolumen": 0.01
+}

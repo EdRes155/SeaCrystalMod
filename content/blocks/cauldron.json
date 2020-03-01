@@ -1,0 +1,35 @@
+{
+	"type": "GenericSmelter",
+	"name": "Cauldron",
+	"description": "Combines cryofluid and metaglass to produce Sea crystal, but be careful that cryofluid can sprout ad destroy",
+	"liquidCapacity": 80,
+	"outputItem": {"item": "sea-crystal", "amount": 4},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 50,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.0,
+		"items": {
+			"items": [
+				{ "item": "metaglass", "amount": 4 }
+			]
+		},
+		"liquid": {
+			"liquid": "cryofluid",
+			"amount": 1.0
+		}
+	},
+	"requirements": [
+    { "item": "thorium", "amount": 200 },
+    { "item": "titanium", "amount": 150 },
+    { "item": "silicon", "amount": 150 },
+    { "item": "metaglass", "amount": 200}
+  ],
+	"category": "crafting",
+	"research": "graphite-press",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

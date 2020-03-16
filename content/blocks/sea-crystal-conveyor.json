@@ -9,6 +9,6 @@
 		 { "item": "lead", "amount": 5}
 	],
 	"category": "distribution",
-	"speed": 10,
+	"speed": 14,
 	"research": "graphite-press"
 }

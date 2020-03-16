@@ -1,0 +1,13 @@
+{
+	"type": "Conveyor",
+	"name": "Asphalt Conveyor",
+	"health": 10,
+	"description": "Conveyor of Asphalt. Made to transport items faster.",
+	"requirements": [
+		 { "item": "asphalt", "amount": 5 },
+		 { "item": "copper", "amount": 5 },
+	],
+	"category": "distribution",
+	"speed": 8,
+	"research": "graphite-press"
+}

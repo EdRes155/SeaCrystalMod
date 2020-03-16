@@ -1,0 +1,26 @@
+{
+	"type": "MinerDrone",
+	"name": "Meteorite Miner",
+	"description": "Miner Meteorite Drone",
+	"maxVelocity": 70,
+	"speed": 0.3,
+	"flying": true,
+	"health": 50,
+	"engineOffset": 2.0,
+	"engineSize": 3,
+	"rotateSpeed": 3,
+	"mass": 60,
+	"tomine":"thorium",
+	"drillPower":400.0,
+	"itemCapacity": 100,
+	"range": 100,
+	"minePower": 200.0,
+	"weapon": {
+		"name": "UranLancer",
+		"length": 2.0,
+		"damage": 5.0,
+		"reload": 8.0,
+		"alternate": true,
+		"bullet": "lancerLaser"
+	}
+}

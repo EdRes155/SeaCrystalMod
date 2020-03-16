@@ -1,0 +1,7 @@
+{
+  "type": "material",
+  "name": "Asphalt",
+  "description": "It resists high temperatures and is almost unbreakable. Serves to create conveyors",
+  "cost": 2,
+  "color": "7f7f7f"
+}

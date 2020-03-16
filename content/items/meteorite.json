@@ -1,0 +1,7 @@
+{
+  "type": "material",
+  "name": "Meteorite",
+  "description": "A highly rare mineral and coveted by many",
+  "cost": 2,
+  "color": "672d04"
+}
